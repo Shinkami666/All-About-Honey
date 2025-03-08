@@ -1,0 +1,282 @@
+header {
+    margin: auto;
+    background-color: rgb(23, 25, 26);
+    text-align: center;
+}
+.titleText {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+    text-align: center;
+
+}
+body {
+    cursor: url(beeCursor.ico), pointer;
+    background-color: darkgoldenrod;
+    background-image:url(honeycombBackground2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: larger;
+    font-style: bold;
+}
+.navBar {
+    background-color: yellow;
+    font-family: "Comfortaa", sans-serif;
+    font-size: large;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    /*background-image:url(honeycombBackground.jpg); */ 
+}
+.horiNavList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+.horiNavList li {
+    background-color: black;
+    margin: 0 15px;
+    padding: 10px 20px;
+}
+.horiNavList a {
+    /*background-color: rgb(23, 25, 26);*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    color: khaki;
+}
+h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow;
+    margin: 5 auto;
+    padding: 2.5%;
+}
+.containerOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+figure {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageOneHoney {
+    background-color: yellow;
+    border: 1px solid black;
+}
+.honey {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.honeybeeFig {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+}
+.honeybee {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.waspFig {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+}
+.wasp {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.standardHoney {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+}
+.regHoney {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.waspHoneycomb {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.waspHoney {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.hivesArt{
+    text-align: center;
+    margin-left: 30%;
+}
+.compareHive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.beehive {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+}
+.wildBeehive {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 0%;
+}
+.beeHiveHive {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    margin-left: 15%;
+}
+.manBee {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    margin-right: 15%;
+}
+.humanBeehive {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 300%;
+}
+.comparisonText {
+    background-color: yellow;
+    border: 2px black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.mead {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+}
+.honeyCake {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+}
+.pageHiveHoney {
+    background-color: yellow;
+    border: 1px solid black;
+    margin: auto;
+}
+.honeyTypes {
+    background-color: yellow;
+    border: 2px solid black;
+    max-width: 700px;
+    padding: 1%;
+    margin-right: auto;
+}
+.leftParOne {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    height: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    border: 2px solid yellow;
+    margin-left: 10%;
+    align-self: flex-start;
+}
+.midParTwo {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    height: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    border: 2px solid yellow;
+    margin-left: 40%;
+    margin-top: auto;
+}
+.rightParTwo {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    height: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    border: 2px solid yellow;
+    margin-left: 70%;
+}
+.flowerPar {
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    border: 2px solid yellow;
+
+}
+blockquote {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    height: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    border: 2px solid yellow;
+    text-align: justify;
+}
+.footNav {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.footList {
+    list-style: none;
+    padding: 2.5%;
+    margin: 0;
+    display: flex;
+}
+.footList li {
+    margin: 0 15px;
+    
+}
+.footList a {
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.endFoot {
+    background-color: yellow;
+    text-align: center;
+}
